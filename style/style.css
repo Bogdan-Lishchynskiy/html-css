@@ -2,15 +2,16 @@ html,
 body {
     padding: 0;
     margin: 0;
+    
 }
 
 body {
     background-color: White;
 }
 
-div {
+/* div {
     background-color: grey;
-}
+} */
 
 p {
     color: white;
@@ -27,6 +28,7 @@ header{
   
     width: 50%;
     height: 100px;
+    background-color: dimgrey;
 }
 
 .logo {
@@ -34,12 +36,16 @@ header{
     
     width: 300px;
     height: 100px;
+    background-color: dimgrey;
     
 }
 
-.info{
+.info {
+  
     height: 50px;
     margin-bottom: 20px;
+    background-color: dimgrey;
+   
 }
 
 
@@ -55,9 +61,10 @@ header{
     justify-content: center;
     align-items: center;
     height: 200px;
-    width:600px;
+    width:700px;
     border:1px solid black;
     margin: 15px;
+    background-color: dimgrey;
 }
 
 .second_sect{
@@ -71,6 +78,7 @@ header{
     width:300px;
     border:1px solid black;
     margin: 15px;
+    background-color: dimgrey;
 }
 .third_sect{
     display: flex;
@@ -83,18 +91,17 @@ header{
     width:400px;
     border:1px solid black;
     margin: 15px;
+    background-color: dimgrey;
 }
 .wrap1{
-   width: 50%;
-    justify-content: space-around;
+
+   
 }
 .wrap2{
-    width:24%;
-    justify-content: space-around;
+  
 }
 .wrap3{
-    width:25%;
-    justify-content: space-around;
+    
 }
 
 
@@ -103,4 +110,5 @@ header{
     height: 50px;
     background: #666;
     color: #fff;
+    text-align: center;
   }
