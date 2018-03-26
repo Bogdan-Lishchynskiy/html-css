@@ -2,96 +2,91 @@ html,
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
 }
 
 p {
     color: white;
+    line-height: 1.5;
     text-align: center;
 }
 
 header {
+    font-size: 15px;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
 }
 
 .menu {
-    align-items: center;
     width: 50%;
     height: 100px;
-    background-color: dimgrey;
-    margin: 5px;
 }
 
 .logo {
-
-    width: 300px;
+    width: 22%;
     height: 100px;
-    background-color: dimgrey;
-    margin: 5px;
 }
 
 nav {
-    height: 50px;
-    margin-bottom: 20px;
-    margin: 5px;
-    background-color: dimgrey;
+    height: 80px;
+}
+
+.back_color {
+    margin: 10px;
+    background-color: #D3D3D3;
+}
+
+.text_position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_direction {
+    padding-bottom: 100px;
 }
 
 .container {
     display: flex;
-    background: floralwhite;
-    height: 700px;
-}
-
-.first_sect {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 700px;
-    margin: 5px;
-    background-color: dimgrey;
-}
-
-.second_sect {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 390px;
-    margin: 5px;
-    background-color: dimgrey;
-}
-
-.third_sect {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 399px;
-    margin: 5px;
-    background-color: dimgrey;
+    height: 800px;
+    width: 100%;
 }
 
 .wrap1 {
-    height: 100%;
     display: flex;
     flex-direction: column;
-}
-
-.first_block {
-    height: 20%;
-}
-
-.second_block {
-    height: 30%;
-}
-
-.third_block {
-    height: 45%;
+    height: 100%;
+    width: 50%;
 }
 
 .wrap2 {
-    height: 100%;
     display: flex;
     flex-direction: column;
+    width: 25%;
+    height: 100%;
+}
+
+.wrap3 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+}
+
+.first_block {
+    height: 23%;
+}
+
+.second_block {
+    height: 27%;
+}
+
+.third_block {
+    height: 50%;
 }
 
 .fourth_block {
@@ -99,13 +94,7 @@ nav {
 }
 
 .fifth_block {
-    height: 66%;
-}
-
-.wrap3 {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    height: 70%;
 }
 
 .six_block {
@@ -113,17 +102,13 @@ nav {
 }
 
 .seventh_block {
-    height: 30%;
+    height: 50%;
 }
 
 .eight_block {
-    height: 45%;
+    height: 30%;
 }
 
 .footer {
-    height: 50px;
-    background: #666;
-    color: #fff;
-    text-align: center;
-    margin: 5px;
+    height: 100px;
 }
